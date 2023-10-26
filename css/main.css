@@ -36,30 +36,45 @@ h2 {
   margin: 0;
   padding: 0;
 }
-p{
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+#ttl {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(54, 1, 92, 0.5)
+  );
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+  font-size: larger;
 }
 h1 {
   font-size: 60px;
 }
-table{
-    display: flex;
-    padding: 10px;
+h3 {
+  font-size: 15px;
+  margin-top: 10px;
 }
-tbody{
-    margin-left: 50px;
-
+table {
+  display: flex;
+  padding: 10px;
 }
-tr{
-    display: block; float: left;
+tbody {
+  margin-left: 50px;
 }
-td{
-    text-align: right;
-    display: block;
+tr {
+  display: block;
+  float: left;
 }
-th{
-    text-align: left;
-    display: block;
+td {
+  text-align: right;
+  display: block;
+}
+th {
+  text-align: left;
+  display: block;
 }

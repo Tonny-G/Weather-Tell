@@ -7,6 +7,7 @@ function loadSite(){
             latitude=position.coords.latitude;
             longitude=position.coords.longitude;
             getWeather();
+            showDate();
         })
     }
 }
@@ -48,4 +49,8 @@ function getWeather(){
         document.getElementById("data_sunrise").innerHTML=new Date(json.sys.sunrise*1000).toLocaleTimeString();
         document.getElementById("data_sunset").innerHTML=new Date(json.sys.sunset*1000).toLocaleTimeString();
     })
+}
+function showDate(){
+    const d=new Date().toDateString()
+    document.getElementById("date").innerHTML=d;
 }
